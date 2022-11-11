@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Elemen-Elemen Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset> <!-- Elemen: fieldset -->
+        <legend>Personal Info</legend> <!-- Elemen: legend -->
+        <label for="idnumber">Nomor ID:</label>
+        <input type="number" name="idnumber" id="idnumber" placeholder="Masukkan ID Anda"> <!-- Elemen: input, type: "number" -->
+        <br>
+        <br>
+        <label for="tggllahir">Tanggal Lahir:</label>
+        <input type="date" name="tggllahir" id="tggllahir"> <!-- Elemen: input, type: date -->
+        <br>
+        <br>
+        <label for="email">Email:</label>
+      	<input type="email" name="email" id="email" placeholder="Masukkan Email"> <!-- Elemen:input, type: "email" -->
+      	<br>
+     	<br>
+     	<label for="url">Link Profil:</label>
+      	<input type="url" name="url" placeholder="Masukkan Link Video Profil" id="url"> <!-- Elemen: input, type: "url" -->
+      	<br>
+      	<br>
+      	<label for="file">Upload CV:</label>
+      	<input type="file" name="file" id="file" placeholder="Pilih File"> <!-- Elemen: input, type: "file" -->
+      	<br>
+      	<br>
+      	<label for="daerah">Asal Kecamatan:</label>
+        <select name="daerah" id="daerah"> <!-- Elemen: select, Item List: outgroup -->
+          <optgroup label="Kabupaten Mamuju Tengah">
+            <option>Kec. Pangale</option>
+            <option>Kec. Budong-Budong</option>
+            <option>Kec. Topoyo</option>
+            <option>Kec. Tobadak</option>
+            <option>Kec. Karossa</option>
+          </optgroup>
+          <optgroup label="Kabupaten Majene">
+            <option>Kec. Banggae</option>
+            <option>Kec. Banggae Timur</option>
+            <option>Kec. Malunda</option>
+            <option>Kec. Pamboang</option>
+            <option>Kec. Sendana</option>
+            <option>Kec. Tammeredo Sendana</option>
+            <option>Kec. Tubo Sendana</option>
+            <option>Kec. Ulumanda</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <fieldset>
+      	<legend>Contoh Lain</legend>
+      		<label for="volume">Volume</label>
+      		<input type="range" name="volume" id="volume" min="0" max="100" step="1"> <!-- Elemen: input, type: range -->
+      		<br>
+      		<br>
+      		<label for="color">Warna Background</label>
+      		<input type="color" name="color" id="color" placeholder="Pilih Warna"> <!-- Elemen: input, type: color -->
+      		<br> 
+      		<br>
+      		<label for="search">Search</label>
+      		<input type="search" name="search" id="search" placeholder="Masukkan Pencarian"> <!-- Elemen: input, type: search -->
+      </fieldset>
+      <fieldset>
+      	<legend>Aksi</legend>
+      	<input type="reset" name="rst" id="rst" value="Reset Data"> <!-- Elemen: input, type: reset -->
+      </fieldset>
+    </form>
+  </body>
+</html>

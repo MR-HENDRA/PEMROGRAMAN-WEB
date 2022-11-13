@@ -11,4 +11,6 @@ switch (nilai) {
   case 'C':
     alert('Baik');
     break;
+  default:
+    alert('Nilai yang Anda masukkan tidak sesuai. Mohon dicoba lagi.');
 }

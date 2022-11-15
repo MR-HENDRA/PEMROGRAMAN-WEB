@@ -1,8 +1,7 @@
 var a = '';
-var b = 11;
-for (i = 0; i < b; i++) {
-  for (j = 0; j < b - i; j++) {
-    a += ' *';
+for (var i = 10; i > 0; i--) {
+  for (var j = 0; j <= i; j++) {
+    a += '*';
   }
   a += '\n';
 }

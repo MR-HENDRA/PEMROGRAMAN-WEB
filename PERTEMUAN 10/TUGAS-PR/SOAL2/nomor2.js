@@ -1,4 +1,4 @@
-var nilai = prompt('input nilai mhs: ').toUpperCase();
+var nilai = prompt("input nilai mhs: ").toUpperCase();
 // fungsi toUpperCase() digunakan untuk merubah inputan menjadi kapital.
 
 switch (nilai) {
